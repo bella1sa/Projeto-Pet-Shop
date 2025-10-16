@@ -397,7 +397,6 @@ font-size: 1.4rem;
 
 /* |#################################################ADESTRAMENTO#################################################### */
 
-/* Banner adestramento: imagem lateral a lateral cobrindo altura ajustada da tela */
 .banner-adestramento{
     width: 100%;
     height: 55%;
@@ -411,7 +410,7 @@ font-size: 1.4rem;
     display: block;
 }
 
-/* Seção adestramento similar à seção banho */
+
 .adestramento{
   display: block;
   width: 80%;
@@ -447,7 +446,7 @@ font-size: 1.4rem;
   border-radius: 6px;
   cursor: pointer;
 }
-/* Ajustes para título ao lado da logo na página adestramento */
+
 .left-top{
     display: flex;
     align-items: center;
@@ -463,7 +462,7 @@ font-size: 1.4rem;
     color: #000;
 }
 
-/* Galeria de adestramento */
+
 .galeria-adestramento{
   width: 90%;
   margin: 20px auto;
