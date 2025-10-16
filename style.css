@@ -277,4 +277,231 @@ font-size: 1.4rem;
     margin: 50px 0;
 }
 
+.banho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
+.img-banho img {
+  width: 600px;
+  border-radius: 0;
+}
+
+.texto-banho {
+  flex: 1;
+}
+
+.texto-banho p {
+  margin-bottom: 15px;
+  color: #000;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+ .banho button{
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 1.05 rem;
+  border-radius: 6px;
+  cursor: pointer;
+
+}
+
+.banho button-saiba:hover {
+  background-color: #333;
+}
+
+/* ################################ secao pet care ################################## */
+
+.petcare {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.titulo-petcare {
+    width: 95%;
+    margin: 20px;
+    margin-left: 35px;
+  background-color: #807a79;
+  padding: 20px 0;
+
+}
+
+.pet i{
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.titulo-petcare h2 {
+  font-size: 2rem;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.conteudo-petcare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.texto-petcare {
+  flex: 1;
+  text-align: justify;
+}
+
+.texto-petcare p {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.img-petcare img {
+  width: 400px;
+  border-radius: 0; 
+}
+
+.btn-saiba {
+  background-color: #000; 
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 1.05rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 0.5px;
+}
+
+.btn-saiba:hover {
+  background-color: #222;
+  }
+  .img-petcare img {
+    width: 100%;
+  }
+
+/* |#################################################ADESTRAMENTO#################################################### */
+
+/* Banner adestramento: imagem lateral a lateral cobrindo altura ajustada da tela */
+.banner-adestramento{
+    width: 100%;
+    height: 55%;
+    overflow: hidden;
+}
+
+.banner-adestramento img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Seção adestramento similar à seção banho */
+.adestramento{
+  display: block;
+  width: 80%;
+  margin: 20px auto 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.img-adestramento{
+   display: none;
+}
+
+.texto-adestramento{
+  width: 100%;
+}
+
+.texto-adestramento p{
+  margin-bottom: 15px;
+  color: #000;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.texto-adestramento .btn-saiba{
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+/* Ajustes para título ao lado da logo na página adestramento */
+.left-top{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-top .page-title h1{
+    margin: 0;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: none;
+    padding: 0;
+    color: #000;
+}
+
+/* Galeria de adestramento */
+.galeria-adestramento{
+  width: 90%;
+  margin: 20px auto;
+}
+
+.galeria{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.galeria img{
+  width: calc(20% - 12px);
+  max-width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 800px){
+  .galeria img{ width: calc(33.333% - 12px); max-width: 140px; height: 110px }
+}
+
+@media (max-width: 480px){
+  .galeria img{ width: calc(50% - 12px); max-width: 160px; height: 100px }
+}
+
+
+
+.perguntas-frequentes{
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.perguntas-frequentes button{
+    background-color: #adadad;
+    color: rgb(2, 2, 2);
+}  
